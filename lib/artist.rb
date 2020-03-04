@@ -9,6 +9,7 @@ class Artist
     @name = name
     @songs = []
     # @songs = []
+    save
   end
   
   def save
