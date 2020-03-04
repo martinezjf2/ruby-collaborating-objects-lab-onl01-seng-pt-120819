@@ -33,7 +33,7 @@ class Song
     new_name = file.chomp(".mp3").split(" - ")
     # binding.pry
     new_song = Song.new(new_name[1])
-    new_song.artist = new_name[0]
+    new_song.artist_name = new_name[0]
     # new_song.save
     new_song
   end
