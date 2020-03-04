@@ -31,7 +31,7 @@ class Artist
 
   def print_songs #instance method iterates through @songs of an instance of Artist
     # puts @songs.collect {|x| x.name}
-    self.songs.each {|song| song.name}
+    self.songs.each {|song| puts song.name}
   end
   
   def self.find_or_create_by_name(name)
